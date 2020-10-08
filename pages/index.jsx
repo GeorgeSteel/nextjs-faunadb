@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import AddItem from '../components/AddItem'
 import ItemList from '../components/ItemList'
 
 export default function Home() {
@@ -11,8 +12,8 @@ export default function Home() {
 
       <div style={{ padding: '5px' }}>
         <h3>My Todo Items</h3>
-        <div>items to get loaded here</div>
 
+        <AddItem />
         <ItemList />
       </div>
     </div>

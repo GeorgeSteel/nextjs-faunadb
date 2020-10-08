@@ -17,7 +17,6 @@ export default function ItemList() {
 
   if (loading) return <p>Loading...</p>
 
-  console.log(data)
   return (
     <ul>
       {data?.allItems.data.map(item => (
