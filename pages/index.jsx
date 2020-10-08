@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <div style={{ padding: '5px' }}>
-        <h3>My Todo Items</h3>
+        <h3>My TODO List</h3>
 
         <AddItem />
         <ItemList />
